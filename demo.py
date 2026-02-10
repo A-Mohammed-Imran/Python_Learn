@@ -29,6 +29,10 @@ print("The sum of", a, " and", b, " is ", sum, " \"This is the end of the progra
 
 print("The sum of", a, "and", b, "is", sum, sep="*")
 
+# end is used to specify what to print at the end of the output
+
+print("The sum of", a, "and", b, "is", sum, end="!!!\n")
+
 # Comment
 
 # This is a single line comment
