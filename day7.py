@@ -11,7 +11,6 @@ mul = (a * b);
 expo = (a ** b);
 div = (a / b);
 mod = (a % b);
-flodev = (a // b);
 
 
 print(f"Addition of {a} and {b} is : {add}");
@@ -20,4 +19,3 @@ print(f"Multiplication of {a} and {b} is : {mul}");
 print(f"Exponation of {a} and {b} is : {expo}");
 print(f"Deviation of {a} and {b} is : {div}");
 print(f"Modulation of {a} and {b} is : {mod}");
-print(f"Floardeviation of {a} and {b} is : {flodev}");
