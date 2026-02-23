@@ -11,5 +11,7 @@ match x:
         print("Two")
     case 3:
         print("three")
+    case 4:
+        print("Four")
     case _:
         print("Invalid number")
