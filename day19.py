@@ -28,9 +28,6 @@ for num in numbers:
         break
     print(f"Checking {num}...")
 
-# ====================
-# 2. CONTINUE STATEMENT
-# ====================
 # Continue statement skips the current iteration and moves to the next one
 # The loop does NOT terminate, it just skips the rest of the code for that iteration
 
@@ -55,10 +52,6 @@ for num in range(1, 11):
         continue  # Skip even numbers
     print(f"{num} is odd")
 
-# ====================
-# 3. COMBINING BREAK AND CONTINUE
-# ====================
-
 print("\n" + "=" * 50)
 print("Example 5: Break + Continue Together")
 print("=" * 50)
@@ -72,9 +65,7 @@ for num in range(1, 21):
         continue
     print(f"{num} is odd")
 
-# ====================
 # 4. NESTED LOOPS WITH BREAK
-# ====================
 
 print("\n" + "=" * 50)
 print("Example 6: Break in Nested Loop")
@@ -87,16 +78,4 @@ for i in range(1, 4):
             print(f"  Breaking inner loop at j = {j}")
             break
         print(f"  Inner loop: j = {j}")
-
-# ====================
-# KEY POINTS
-# ====================
-print("\n" + "=" * 50)
-print("Summary:")
-print("=" * 50)
-print("✓ BREAK: Exits the loop completely")
-print("✓ CONTINUE: Skips current iteration, moves to next")
-print("✓ FOR loop: Used when we know the number of iterations")
-print("✓ WHILE loop: Used when we don't know the number of iterations")
-print("=" * 50)
 
