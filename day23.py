@@ -12,4 +12,4 @@ print(faa)
 
 m = faa.copy()
 m[0] = 0     
-print("another list :", m)     
+print("another list :", m)
